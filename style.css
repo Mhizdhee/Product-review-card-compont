@@ -499,7 +499,7 @@ footer p{
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        width: 800px;
+        width: 600px;
         height: 70vh;
         margin: auto;
         border-radius: 10px;
@@ -512,7 +512,7 @@ footer p{
 
     .wrapper .desktop {
     
-        width: 500px;
+        width: 300px;
         height: 70vh;
         border-radius: 10px 0 0 10px;
         
