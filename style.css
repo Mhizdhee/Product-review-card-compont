@@ -1,0 +1,733 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+max-width: 100%;
+
+}
+
+/* media query at 375px */
+
+@media screen and (max-width: 375px) {
+    
+
+
+html,body{
+    background-color: hsl(30, 38%, 92%);
+    padding: 20px;
+}
+
+.wrapper{
+    background-color: hsl(0, 0%, 100%);
+    width: 380px;
+    height: 105vh;
+    margin: auto;
+    border-radius: 10px;
+    flex-direction: column;
+    
+    
+}
+
+.wrapper .mobile{
+
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    
+    
+}
+ .wrapper .desktop{
+    display: none;
+} 
+.content{
+
+padding: 15px; 
+}
+
+.content p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color:hsl(228, 12%, 48%);
+    padding: 10px;
+    
+}
+
+.content h1{
+    font-weight: 700;
+    font-family:'Fraunces', serif;
+    padding: 5px;
+    color:hsl(212, 21%, 14%);
+}
+
+.content .text{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+
+}
+
+.content .dolz{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+}
+
+span{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    padding: 5px;
+    text-decoration: line-through;
+
+}
+
+
+.cart{
+    background-color: hsl(158, 36%, 37%);
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px; 
+    
+}
+
+.cart img{
+    width: 20px;
+}
+
+
+.cart p{
+    color: hsl(0, 0%, 100%);
+}
+
+
+footer{
+    padding: 20px;
+    
+}
+
+footer p{
+    text-align: center;
+}
+
+}
+
+
+/* media query for 376px-499px */
+@media screen and (min-width:376px) and (max-width:499px) { 
+    html,body {
+            background-color: hsl(30, 38%, 92%);
+            padding: 20px;
+        }
+
+    .wrapper {
+        background-color: hsl(0, 0%, 100%);
+        width: 380px;
+        height: 75vh;
+        margin: auto;
+        border-radius: 10px;
+        flex-direction: column;
+        
+
+    }
+        .wrapper .mobile {
+        
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+    
+        }
+
+        .wrapper .desktop{
+            display: none;
+        }
+    
+        .content {
+    
+            padding: 15px;
+        }
+    
+        .content p {
+            font-size: 14px;
+            font-weight: 500;
+            font-family: 'Montserrat', sans-serif;
+            color: hsl(228, 12%, 48%);
+            padding: 10px;
+    
+        }
+    
+        .content h1 {
+            font-weight: 700;
+            font-family: 'Fraunces', serif;
+            padding: 5px;
+            color: hsl(212, 21%, 14%);
+        }
+    
+        .content .text {
+            padding: 10px;
+            font-size: 14px;
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+            color: hsl(228, 12%, 48%);
+    
+        }
+    
+        .content .dolz {
+            font-size: 25px;
+            font-weight: 700;
+            font-family: 'Fraunces', serif;
+            color: hsl(158, 36%, 37%);
+        }
+    
+        span {
+            font-size: 14px;
+            font-weight: 500;
+            font-family: 'Montserrat', sans-serif;
+            color: hsl(228, 12%, 48%);
+            padding: 5px;
+            text-decoration: line-through;
+    
+        }
+
+        .cart {
+            background-color: hsl(158, 36%, 37%);
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            border-radius: 5px;
+            padding: 5px;
+    
+        }
+        .cart img {
+            width: 20px;
+         }
+            
+            
+        .cart p {
+             color: hsl(0, 0%, 100%);
+        }
+
+
+
+        footer {
+             padding: 20px;
+        
+         }
+        
+         footer p {
+            text-align: center;
+        }
+
+}
+
+/* media query for screensize 500px-549px  */
+
+ @media screen and (min-width:500px) and (max-width:549px) {
+
+     html,
+     body {
+         background-color: hsl(30, 38%, 92%);
+         padding: 20px;
+     }
+
+     .wrapper {
+         background-color: hsl(0, 0%, 100%);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: row;
+         width: 650px;
+         height: 60vh;
+         margin: auto;
+         border-radius: 10px;
+     }
+
+     .wrapper .mobile {
+         display: none;
+     }
+
+     .wrapper .desktop {
+        
+         width: 200px;
+         height: 60vh;
+         border-radius: 10px 0 0 10px;
+
+     }
+
+     .content {
+         width: 270px;
+         padding: 20px;
+     }
+
+     .content p {
+         font-size: 14px;
+         font-weight: 500;
+         font-family: 'Montserrat', sans-serif;
+         color: hsl(228, 12%, 48%);
+         padding: 10px;
+
+     }
+
+     .content h1 {
+         font-weight: 700;
+         font-family: 'Fraunces', serif;
+         padding: 7px;
+         color: hsl(212, 21%, 14%);
+     }
+
+     .content .text {
+         padding: 10px;
+         font-size: 14px;
+         font-weight: 700;
+         font-family: 'Montserrat', sans-serif;
+         color: hsl(228, 12%, 48%);
+         width: 254px;
+
+     }
+
+     .content .dolz {
+         font-size: 25px;
+         font-weight: 700;
+         font-family: 'Fraunces', serif;
+         color: hsl(158, 36%, 37%);
+
+     }
+
+     span {
+         font-size: 14px;
+         font-weight: 500;
+         font-family: 'Montserrat', sans-serif;
+         color: hsl(228, 12%, 48%);
+         padding: 5px;
+         margin: auto;
+        text-decoration: line-through;
+     }
+
+     .cart {
+         background-color: hsl(158, 36%, 37%);
+         width: 90%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: 12px;
+         border-radius: 5px;
+         padding: 5px;
+
+     }
+
+     .cart img {
+         width: 20px;
+     }
+
+
+     .cart p {
+         color: hsl(0, 0%, 100%);
+     }
+
+
+
+     footer {
+         padding: 20px;
+
+     }
+
+     footer p {
+         text-align: center;
+     }
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+/* Media query for 550px and 850px */
+
+ @media screen and (min-width:550px) and (max-width:850px) {
+
+    html,body {
+            background-color: hsl(30, 38%, 92%);
+            padding: 20px;
+        }
+    
+        .wrapper {
+            background-color: hsl(0, 0%, 100%);
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 700px;
+            height: 40vh;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        .wrapper .mobile{
+            display: none;
+        }
+        
+        .wrapper .desktop{
+        
+            width: 400px; 
+            height: 40vh;
+            border-radius: 10px 0 0 10px;
+
+        }
+         .content {
+            width: 300px;
+            padding: 20px;
+        }
+        
+         .content p {
+            font-size: 14px;
+            font-weight: 500;
+            font-family: 'Montserrat', sans-serif;
+            color: hsl(228, 12%, 48%);
+            padding: 10px;
+        
+        }
+        
+        .content h1 {
+            font-weight: 700;
+            font-family: 'Fraunces', serif;
+            padding: 7px;
+            color: hsl(212, 21%, 14%);
+        }
+        
+        .content .text {
+            padding: 10px;
+            font-size: 14px;
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+            color: hsl(228, 12%, 48%);
+            width: 254px;  
+        
+        }
+        
+        .content .dolz {
+            font-size: 25px;
+            font-weight: 700;
+            font-family: 'Fraunces', serif;
+            color: hsl(158, 36%, 37%);
+                    
+        }
+        
+        span {
+            font-size: 14px;
+            font-weight: 500;
+            font-family: 'Montserrat', sans-serif;
+            color: hsl(228, 12%, 48%);
+            padding: 5px;
+            margin: auto; 
+            text-decoration: line-through;
+        
+        }
+        
+        .cart {
+            background-color: hsl(158, 36%, 37%);
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 12px;
+            border-radius: 5px;
+            padding: 5px;
+        
+        }
+        
+        .cart img {
+            width: 20px;
+        }
+        
+        
+        .cart p {
+            color: hsl(0, 0%, 100%);
+        }
+        
+        
+        
+        footer {
+            padding: 20px;
+        
+        }
+        
+        footer p {
+            text-align: center;
+        } 
+
+
+
+ 
+
+}
+
+ /* Media query for  desktop 855px-1439px  */
+
+ @media screen and (min-width:855px) and (max-width:1439px) {
+
+    html,
+    body {
+        background-color: hsl(30, 38%, 92%);
+        padding: 20px;
+    }
+
+    .wrapper {
+        background-color: hsl(0, 0%, 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 800px;
+        height: 70vh;
+        margin: auto;
+        border-radius: 10px;
+        
+    }
+
+    .wrapper .mobile {
+        display: none;
+    }
+
+    .wrapper .desktop {
+    
+        width: 500px;
+        height: 70vh;
+        border-radius: 10px 0 0 10px;
+        
+
+    }
+
+    .content {
+        width: 300px;
+        padding: 0 10px;
+        
+    }
+
+    .content p {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
+        padding: 10px;
+
+    }
+
+    .content h1 {
+        font-weight: 700;
+        font-family: 'Fraunces', serif;
+        padding: 7px;
+        color: hsl(212, 21%, 14%);
+        
+    }
+
+    .content .text {
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
+        width: 254px;
+
+
+    }
+
+    .content .dolz {
+        font-size: 25px;
+        font-weight: 700;
+        font-family: 'Fraunces', serif;
+        color: hsl(158, 36%, 37%);
+
+    }
+
+    span {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
+        padding: 5px;
+        text-decoration: line-through;
+
+    }
+
+    .cart {
+        background-color: hsl(158, 36%, 37%);
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin: 12px;
+        border-radius: 5px;
+        padding: 5px;
+
+    }
+
+    .cart img {
+        width: 20px;
+    }
+
+
+    .cart p {
+        color: hsl(0, 0%, 100%);
+    }
+
+
+
+    footer {
+        padding: 20px;
+
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+
+}
+
+
+/* Media query For desktop view 1440px */
+
+@media screen and (min-width:1440px)and (max-width:1440px) {
+
+    html,
+    body {
+        background-color: hsl(30, 38%, 92%);
+        padding: 20px;
+    }
+
+    .wrapper {
+        background-color: hsl(0, 0%, 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 600px;
+        height: 60vh;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .wrapper .mobile {
+        display: none;
+    }
+
+    .wrapper .desktop {
+        
+        width: 300px;
+        height: 60vh;
+        border-radius: 10px 0 0 10px;
+
+    }
+
+    .content {
+
+        padding: 20px;
+        width: 300px;
+    }
+
+    .content p {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
+        padding: 10px;
+        
+
+    }
+
+    .content h1 {
+        font-weight: 700;
+        font-family: 'Fraunces', serif;
+        padding: 7px;
+        color: hsl(212, 21%, 14%);
+    }
+
+    .content .text {
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
+        width: 254px;
+
+
+    }
+
+    .content .dolz {
+        font-size: 25px;
+        font-weight: 700;
+        font-family: 'Fraunces', serif;
+        color: hsl(158, 36%, 37%);
+
+    }
+
+    span {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
+        padding: 5px;
+        text-decoration: line-through;
+        
+
+    }
+
+    .cart {
+        background-color: hsl(158, 36%, 37%);
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 12px;
+
+    }
+
+    .cart img {
+        width: 20px;
+    }
+
+
+    .cart p {
+        color: hsl(0, 0%, 100%);
+    }
+
+
+
+    footer {
+        padding: 20px;
+
+    }
+
+    footer p {
+        text-align: center;
+    } 
+
+
+ 
+
+
+} 
